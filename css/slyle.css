@@ -1,0 +1,22 @@
+/* WebStudio */
+
+/* .header > .logo-text-studio {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+} */
+
+.logo-text-studio {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.word-web {
+  color: #2196f3;
+}
