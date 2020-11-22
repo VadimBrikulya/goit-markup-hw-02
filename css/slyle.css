@@ -6,10 +6,7 @@ body {
   font-family: var(--main-font);
 }
 
-.address {
-  font-style: normal;
-}
-
+/*---------- Header ------------*/
 .logo-text-studio {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -41,7 +38,9 @@ body {
   color: #212121;
 }
 
-.header-tel {
+.header-tel,
+.header-mail {
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142px;
@@ -50,21 +49,12 @@ body {
   color: #757575;
 }
 
-.header-mail {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--accent-color);
-}
+/*---------- Hero ------------*/
 
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.363px;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   /* color: #ffffff; */
@@ -88,3 +78,23 @@ body {
   line-height: 1.187px;
   color: #ffffff;
 }
+
+.desription-item {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.desription {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+/*---------- about us ------------*/
