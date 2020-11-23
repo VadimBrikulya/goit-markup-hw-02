@@ -157,3 +157,20 @@ body {
   letter-spacing: 0.03em;
   /* color: rgba(255, 255, 255, 0.6); */
 }
+
+/* ----------- Portfolio----------------- */
+.modal-btn1 {
+  position: absolute;
+  width: 29px;
+  height: 26px;
+  left: 517px;
+  top: 180px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
