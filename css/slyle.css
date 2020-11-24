@@ -34,6 +34,10 @@ body {
   color: var(--accent-color);
 }
 
+.navigation-menu .navigation-list-link.current {
+  color: var(--accent-color);
+}
+
 .navigation-list-link {
   font-weight: 500;
   font-size: 14px;
@@ -164,6 +168,11 @@ body {
   letter-spacing: 0.03em;
 }
 
+.portfolio-btn.button:hover,
+.portfolio-btn.button:focus {
+  background: var(--accent-color);
+}
+
 .portfolio-list .title {
   font-family: var(--accent-color);
   font-weight: bold;
@@ -174,7 +183,7 @@ body {
   color: #212121;
 }
 
-.portfolio-list .description1 {
+.portfolio-list .description {
   font-family: var(--accent-color);
   font-size: 16px;
   line-height: 1.875;
